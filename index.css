@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  :root {
+    --main_theme: #ffa8ff;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+  }
+  
+
+.header {
+    position: relative;
+    padding-top: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.bg-image {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: url(Group\ 20.svg);
+    background-size: cover;
+}
+
+.nav-links {
+}
+
+.nav-links ul {
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin: 8px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.nav-links ul li a:hover {
+    transition: 0.8s;
+    opacity: 80%;
+    border-radius: 20px;
+    color:blue;
+}
+
+.signup {
+    height: 100%;
+    border: none;
+    width: 10%;
+    padding: 15px;
+    background: transparent;
+    border: solid;
+    color: white;
+}
+
+
+
+.para {
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    top: 30%;
+    left: 15%;
+    text-align: left;
+    color: white;
+    font-size: x-large;
+}
+
+.login {
+    position: absolute;
+    height: 30px;
+    width: 10%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border: solid;
+    left: 15%;
+    bottom: 15%;
+    height: 5%;
+}
+
+
+.landing {
+        top: 20%;
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        min-height: -moz-fit-content;
+        min-height: fit-content;
+        padding-left: 15%;
+        display: flex;
+        align-items: center;
+        position: relative;
+}
+.landing .landing_title {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: absolute;
+        top: 2%;
+}
+.landing .landing_title .landing_title_main {
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 91px;
+        color: white;
+        font-family: "Philosopher", sans-serif;
+}
+
+.landing .landing_title .landing_title_sub {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+}
+.landing .landing_title .landing_title_buttons {
+    display: flex;
+    gap: 20px;
+}
+.landing .landing_title .landing_title_buttons button {
+    font-size: 18px;
+    color: black;
+    background: none;
+    padding: 8px 15px;
+    background-color: var(--main_theme);
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.landing .landing_title .landing_title_buttons img {
+    height: 20px;
+    width: 20px;
+}
+
+.landing .landing_title .landing_title_buttons .button_nobg {
+    background-color: transparent;
+    color: white;
+}
+
+.content {
+    background: #1e1e1e;
+    position: relative;
+    width: 100%;
+    height: 200%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 47px;
+
+    position: absolute;
+    width: 1321.1px;
+    height: 1059px;
+    left: calc(50% - 1321.1px/2 - 0.45px);
+    top: 10%;
+}
+
+.megicula {
+    margin-bottom: 10%;
+}
+
+.megicula img {
+    float: left;
+}
+
+.megicula .info {
+    color: white;
+}
+
+.megicula h1 {
+    color: hsl(300, 100%, 90%);
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.megicula p {
+    margin-left: 30%;
+    margin-right: 6%;
+    word-spacing: 3px;
+    line-height: 30px;
+    margin-top: 5%;
+    font-size: 1.6em;
+    font-family: 'Lora', serif;
+}
+
+.atredis img {
+    float: right;
+}
+
+.atredis h1 {
+    color: hsl(300, 100%, 90%);
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+.atredis p {
+    color: white;
+    margin-right: 35%;
+    word-spacing: 3px;
+    line-height: 30px;
+    margin-top: 5%;
+    font-size: 1.6em;
+    font-family: 'Lora', serif;
+}
+
+.footer {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    background: #212121;
+}
+
+.heading {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    font-size: 1.4em;
+}
+
+.help {
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    left: 7.5%;
+    top: 30%;
+}
+
+.help h2 {
+    font-size: 2em;
+    color: white;
+}
+
+.help p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+.icons {
+    position: absolute;
+    display: inline-block;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;
+    left: 42%;
+    top: 30%;
+}
+
+.icons ul li {
+    list-style: none;
+
+}
+
+.icons img {
+    height: 100%;
+    width: 5%;
+    margin: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    color: white;
+    right: 40%;
+    top: 30%;
+}
+
+.about p {
+    font-size: 1.6em;
+}
+
+.about p, h1 {
+    margin-bottom: 10px;
+}
+
+.about h1 {
+    font-size: 2em;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    color: white;
+    right: 25%;
+    top: 30%;
+}
+
+.services p {
+    font-size: 1.6em;
+}
+
+.services p, h1 {
+    margin-bottom: 10px;
+}
+
+.services h1 {
+    font-size: 2em;
+}
+
+.other {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    right: 13%;
+    color: white;
+    top: 30%;
+}
+
+.other p {
+    font-size: 1.6em;
+}
+
+
+
+
+
+
+
